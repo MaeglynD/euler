@@ -5,7 +5,7 @@ p = 3
 q = 5
 pq = p*q
 
-def math():
+def res():
   n, m, nm = ub//p, ub//q, ub//pq
   sp, sq, spq = p*n*(n+1)/2, q*m*(m+1)/2, pq*nm*(nm+1)/2
 
@@ -20,5 +20,5 @@ def brute():
 
   return c
 
-print(f'math res: {math()}')
+print(f'math res: {res()}')
 # print(f'brute res: {brute()}')
