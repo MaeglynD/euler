@@ -7,14 +7,10 @@ def primes_up_to_n(n):
   primes = [2]
 
   for i in range(3, n+1,2):
-    is_prime = True
-
     for p in primes:
       if i%p==0:
-        is_prime = False 
         break
-
-    if is_prime:
+    else:
       primes.append(i)
 
   return primes 

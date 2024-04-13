@@ -7,14 +7,11 @@ def primes_up_to_n(n):
 
   while len(primes) < n:
     i+=2
-    is_prime = True 
 
     for p in primes:
       if i%p == 0:
-        is_prime = False
         break
-
-    if is_prime:
+    else:
       primes.append(i)
   
   return primes
