@@ -57,7 +57,6 @@ def res(mx):
       factors*=acc 
     
     if factors > 500:
-      print(n)
       return int(t)
   
   return 0
